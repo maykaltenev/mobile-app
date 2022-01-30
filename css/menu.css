@@ -1,9 +1,10 @@
 header {
   display: flex;
   border: 2px red dashed;
-  justify-content: flex-end;
+  justify-content: center;
   align-items: center;
   height: 15vh;
+  width: 100vw;
 }
 header nav {
   flex-grow: 2;
@@ -31,13 +32,26 @@ a:link {
   background-size: contain;
   background-repeat: no-repeat;
   display: flex;
-  flex-grow: 7;
-  width: 5vw;
+  width: 16vw;
   height: 10vh;
   border: 2px violet dashed;
 }
-.empty {
+
+header::after {
+  content: "";
+  width: 20vw;
+  height: 15vw;
+  border: 2px yellow solid;
+}
+header::before {
+  content: "";
+  width: 20vw;
+  height: 15vw;
+  border: 2px yellow solid;
+}
+
+/* .empty {
   width: 20vw;
   height: 7vw;
   border: 2px greenyellow dashed;
-}
+} */

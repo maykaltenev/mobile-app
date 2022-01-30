@@ -22,13 +22,13 @@
   flex-wrap: wrap;
 }
 main article {
-  height: 75vh;
+  height: 100vh;
   display: flex;
   border: 2px green dashed;
 }
 .about {
   width: 33vw;
-  height: 75vh;
+
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
@@ -123,9 +123,3 @@ main article:nth-of-type(2) {
   left: 35%;
   bottom: 10%;
 }
-
-/* .empty-main {
-  width: 5vw;
-  height: 5vh;
-  border: 2px #29be56 dashed;
-} */

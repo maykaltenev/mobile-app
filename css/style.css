@@ -19,4 +19,8 @@ body {
   background-image: url(../images/bg.jpg);
   font-family: "Montserrat", sans-serif;
   background-color: 2px rebeccapurple dashed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
 }
