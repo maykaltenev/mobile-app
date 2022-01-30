@@ -110,6 +110,7 @@ main article:nth-of-type(2) {
   background-repeat: no-repeat;
   position: relative;
   z-index: 1;
+  left: 15%;
 }
 
 .white {
@@ -119,7 +120,7 @@ main article:nth-of-type(2) {
   background-size: contain;
   background-repeat: no-repeat;
   position: absolute;
-  left: 25%;
+  left: 35%;
   bottom: 10%;
 }
 
