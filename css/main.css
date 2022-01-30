@@ -3,6 +3,7 @@
   justify-content: center;
   align-content: center;
 }
+/* best way to center */
 .main-container::before {
   content: "";
   width: 20vw;
@@ -12,6 +13,7 @@
   width: 20vw;
 }
 .main-container {
+  /* another way to center */
   /* margin-left: 10vw; */
   width: 100vw;
   height: 75vh;
@@ -22,36 +24,36 @@
   flex-wrap: wrap;
 }
 main article {
-  height: 100vh;
+  height: 75vh;
   display: flex;
   border: 2px green dashed;
 }
 .about {
   width: 33vw;
-
   display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
   border: 2px tomato dashed;
-  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: column;
 }
 .intro {
   width: 33vw;
+  height: 33vh;
   color: white;
-  border: 2px gold dashed;
-  align-items: center;
+  border: 2px rgb(255, 0, 195) dashed;
   text-align: left;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: center;
+  text-shadow: #b3c7cd;
 }
 h1 {
-  font-size: 2rem;
+  font-size: 3rem;
   display: flex;
   flex-direction: column;
+  padding-top: 3rem;
 }
 p {
-  padding-top: 3rem;
-  font-size: 1.5rem;
+  padding-top: 2rem;
+  font-size: 1rem;
   font-weight: 400;
 }
 .buttons {
@@ -95,13 +97,13 @@ main article:nth-of-type(2) {
 .phones {
   width: 35vw;
   height: 55vh;
-  border: 2px yellow dashed;
+  border: 2px #ffff00 dashed;
   display: flex;
+  align-self: flex-start;
   background-size: contain;
   background-repeat: no-repeat;
   position: relative;
 }
-
 .black {
   width: 33vw;
   height: 50vh;
@@ -110,9 +112,8 @@ main article:nth-of-type(2) {
   background-repeat: no-repeat;
   position: relative;
   z-index: 1;
-  left: 15%;
+  left: 18%;
 }
-
 .white {
   width: 35vw;
   height: 50vh;
