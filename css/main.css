@@ -1,52 +1,56 @@
 .main-container {
-    width: 80vw;
-    height: 75vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    border: 2px indigo dashed;
-    flex-wrap: wrap;
+  width: 80vw;
+  height: 75vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border: 2px indigo dashed;
+  flex-wrap: wrap;
 }
 
 main article {
-    height: 75vh;
-    display: flex;
-    border: 2px green dashed;
+  height: 75vh;
+  display: flex;
+  border: 2px green dashed;
 }
 .about {
-    width: 30vw;
-    height: 75vh;
-    display: flex;
-    justify-content: space-evenly;
-    flex-direction: column;
-    flex-wrap: wrap;
-    border: 2px tomato dashed;
+  width: 30vw;
+  height: 75vh;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  flex-wrap: wrap;
+  border: 2px tomato dashed;
 }
 
 .intro {
-    padding-top: 20vh;
-    width: 30vw;
-    color:black;
-    border: 2px gold dashed;
-    align-items: center;
+  padding-top: 20vh;
+  width: 30vw;
+  color: black;
+  border: 2px gold dashed;
+  align-items: center;
 }
 .buttons {
-    width: 25vw;
-    height: 10vh;
-    border: 2px orange dashed;
-    display: flex;
-    justify-content: space-between;
-    
+  width: 29vw;
+  height: 10vh;
+  border: 2px orange dashed;
+  display: flex;
+  justify-content: space-between;
 }
 input[type="button"] {
-    display: inline-block;
-    text-decoration: none;
-    margin: 25px 0;
-    padding: 1.5rem 1.5rem;
-    border-radius: 10%;
-    background-color: rgba(16, 148, 236, 0.849);
-    color: white;
+  display: inline-block;
+  text-decoration: none;
+  width: 12rem;
+  height: 4rem;
+  /* margin: 25px 0; */
+  padding: 1.5rem 1.5rem;
+  border-radius: 5%;
+  background-color: rgba(16, 148, 236, 0.849);
+  font-weight: 900;
+  font-size: 1rem;
+  color: white;
+  cursor: pointer;
 }
 
 /* input[type="button"]:nth-of-type(2) {
@@ -54,38 +58,33 @@ input[type="button"] {
     } */
 
 main article:nth-of-type(2) {
-    height: 75vh;
-    display: flex;
-    border: 2px green dashed;
-    justify-content: center;
-    align-items: center;
+  height: 75vh;
+  display: flex;
+  border: 2px green dashed;
+  justify-content: center;
+  align-items: center;
 }
 .phones {
-    width: 35vw;
-    height: 45vh;
-    border: 2px yellow dashed;
-    display: flex;
-    background-size: contain;
-    background-repeat:no-repeat;
-    
-    
+  width: 35vw;
+  height: 45vh;
+  border: 2px yellow dashed;
+  display: flex;
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
 .black {
-    width: 30vw;
-    height: 50vh;
-    background-image: url(../images/phone_2.png);
-    background-size: contain;
-  background-repeat:no-repeat;
-  
-  
+  width: 30vw;
+  height: 50vh;
+  background-image: url(../images/phone_2.png);
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
 .white {
-    width: 35vw;
-    height: 50vh;
-    background-image: url(../images/phone_1.png);
-    background-size: contain;
-    background-repeat:no-repeat;
-    
+  width: 35vw;
+  height: 50vh;
+  background-image: url(../images/phone_1.png);
+  background-size: contain;
+  background-repeat: no-repeat;
 }
