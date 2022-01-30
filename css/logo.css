@@ -1,9 +1,0 @@
-.logo {
-  display: flex;
-  justify-content: flex-end;
-  border: 2px yellowgreen solid;
-}
-.logo img {
-  width: 15vw;
-  height: 10vh;
-}
