@@ -48,6 +48,15 @@ a:link {
   border: 2px violet dashed;
 }
 
+a {
+  border: none;
+  border: 0;
+}
+/* a slowing effect on hover */
+a:hover {
+  border-bottom: 2px solid rgb(198, 196, 196);
+  /* box-shadow: 0.3rem 0.3rem 0.01rem 0.1rem rgba(255, 255, 255, 0.941); */
+}
 /* empty boxes to make the center form */
 /* .empty {
   width: 20vw;
