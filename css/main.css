@@ -21,7 +21,6 @@
   border: 2px indigo dashed;
   flex-wrap: wrap;
 }
-
 main article {
   height: 75vh;
   display: flex;
@@ -34,19 +33,15 @@ main article {
   flex-direction: column;
   flex-wrap: wrap;
   border: 2px tomato dashed;
+  justify-content: center;
 }
-
 .intro {
-  padding-top: 20vh;
-  width: 31vw;
+  width: 33vw;
   color: white;
   border: 2px gold dashed;
-
-  /* align-items: flex-start;*/
+  align-items: center;
   text-align: left;
-
   flex-direction: column;
-
   justify-content: space-between;
 }
 h1 {
@@ -57,6 +52,7 @@ h1 {
 p {
   padding-top: 3rem;
   font-size: 1.5rem;
+  font-weight: 400;
 }
 .buttons {
   width: 29vw;
@@ -64,6 +60,7 @@ p {
   border: 2px orange dashed;
   display: flex;
   justify-content: space-around;
+  align-items: center;
 }
 input[type="button"] {
   display: inline-block;
@@ -77,15 +74,17 @@ input[type="button"] {
   font-size: 1rem;
   color: white;
   cursor: pointer;
+  border: none;
+}
+.buttons :last-child [type="button"]:active {
+  background-color: #287fb8;
 }
 .buttons :first-child input[type="button"] {
   background-color: #29be56;
 }
-
-/* input[type="button"]:nth-of-type(2) {
-        background-color:green ;
-    } */
-
+.buttons :first-child [type="button"]:active {
+  background-color: #25ac4e;
+}
 main article:nth-of-type(2) {
   height: 75vh;
   display: flex;
@@ -95,19 +94,22 @@ main article:nth-of-type(2) {
 }
 .phones {
   width: 35vw;
-  height: 45vh;
+  height: 55vh;
   border: 2px yellow dashed;
   display: flex;
   background-size: contain;
   background-repeat: no-repeat;
+  position: relative;
 }
 
 .black {
-  width: 30vw;
+  width: 33vw;
   height: 50vh;
   background-image: url(../images/phone_2.png);
   background-size: contain;
   background-repeat: no-repeat;
+  position: relative;
+  z-index: 1;
 }
 
 .white {
@@ -116,6 +118,9 @@ main article:nth-of-type(2) {
   background-image: url(../images/phone_1.png);
   background-size: contain;
   background-repeat: no-repeat;
+  position: absolute;
+  left: 25%;
+  bottom: 10%;
 }
 
 /* .empty-main {
