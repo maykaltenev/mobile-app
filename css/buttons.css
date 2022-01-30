@@ -1,0 +1,31 @@
+.buttons {
+  width: 29vw;
+  height: 10vh;
+  border: 2px orange dashed;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+input[type="button"] {
+  display: inline-block;
+  text-decoration: none;
+  width: 12rem;
+  height: 4rem;
+  padding: 1.5rem 1.5rem;
+  border-radius: 5%;
+  background-color: #3498db;
+  font-weight: 900;
+  font-size: 1rem;
+  color: white;
+  cursor: pointer;
+  border: none;
+}
+.buttons :last-child [type="button"]:active {
+  background-color: #287fb8;
+}
+.buttons :first-child input[type="button"] {
+  background-color: #29be56;
+}
+.buttons :first-child [type="button"]:active {
+  background-color: #25ac4e;
+}
