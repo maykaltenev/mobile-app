@@ -1,8 +1,9 @@
 .main-container {
+  margin-left: 10vw;
   width: 80vw;
   height: 75vh;
   display: flex;
-  align-items: center;
+
   justify-content: center;
   flex-direction: column;
   border: 2px indigo dashed;

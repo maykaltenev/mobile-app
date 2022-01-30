@@ -5,9 +5,8 @@ header {
   align-items: center;
   height: 15vh;
 }
-header nav  {
+header nav {
   flex-grow: 2;
-
 }
 
 header nav ul {
@@ -30,16 +29,17 @@ a:link {
 .logo {
   background-image: url(../images/logo.png);
   background-size: contain;
-  background-repeat:no-repeat;
+  background-repeat: no-repeat;
   display: flex;
-  flex-grow: 4;
+  flex-grow: 7;
   width: 5vw;
   height: 10vh;
   border: 2px violet dashed;
-  }
-  .empty {
-    width: 10vw;
-    height: 10vw;
-    border: 2px greenyellow dashed;
-    
-  }
+}
+.empty {
+  width: 10vw;
+  height: 7vw;
+  border: 2px greenyellow dashed;
+}
+header :nth-child(3) {
+}
