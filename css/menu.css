@@ -1,0 +1,30 @@
+header {
+  display: flex;
+  align-items: center;
+  height: 30vh;
+  border: 10px rgb(234, 158, 28) solid;
+}
+header nav {
+  flex-grow: 2;
+  border: 2px red solid;
+  align-items: flex-end;
+}
+.empty {
+  display: flex;
+  flex-grow: 6;
+  border: 2px purple solid;
+}
+header nav ul {
+  display: flex;
+  justify-content: space-between;
+  border: 10px rgb(9, 230, 215) solid;
+}
+header nav ul li {
+  display: inline;
+  list-style: none;
+  border: 10px yellowgreen solid;
+}
+a {
+  color: white;
+  text-decoration: none;
+}
