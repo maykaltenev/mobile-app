@@ -1,14 +1,14 @@
 main article:nth-of-type(2) {
   height: 75vh;
   display: flex;
-  border: 2px green dashed;
+  /* border: 2px green dashed; */
   justify-content: center;
   align-items: center;
 }
 .phones {
-  width: 35vw;
+  width: 36vw;
   height: 55vh;
-  border: 2px #ffff00 dashed;
+  /* border: 2px #ffff00 dashed; */
   display: flex;
   align-self: flex-start;
   background-size: contain;

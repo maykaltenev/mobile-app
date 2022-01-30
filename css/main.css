@@ -15,41 +15,39 @@
 .main-container {
   /* another way to center */
   /* margin-left: 10vw; */
-  width: 100vw;
+  width: 60vw;
   height: 75vh;
   display: flex;
-  /* justify-content: center; */
+  justify-content: center;
   flex-direction: column;
-  border: 2px indigo dashed;
   flex-wrap: wrap;
 }
 main article {
   height: 75vh;
   display: flex;
-  border: 2px green dashed;
 }
 .about {
-  width: 33vw;
+  width: 36vw;
   display: flex;
-  border: 2px tomato dashed;
-  flex-wrap: wrap;
+  /* border: 2px tomato dashed; */
+  /* flex-wrap: wrap; */
   flex-direction: column;
 }
 .intro {
   width: 33vw;
   height: 33vh;
   color: white;
-  border: 2px rgb(255, 0, 195) dashed;
+  /* border: 2px rgb(255, 0, 195) dashed; */
   text-align: left;
   flex-direction: column;
   justify-content: center;
   text-shadow: #b3c7cd;
 }
 h1 {
+  padding-top: 4rem;
   font-size: 3rem;
   display: flex;
   flex-direction: column;
-  padding-top: 3rem;
 }
 p {
   padding-top: 2rem;

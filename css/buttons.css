@@ -1,10 +1,10 @@
 .buttons {
-  width: 29vw;
+  width: 28vw;
   height: 10vh;
-  border: 2px orange dashed;
+  /* border: 2px orange dashed; */
   display: flex;
-  justify-content: space-around;
-  align-items: center;
+  justify-content: flex-start;
+  align-items: flex-start;
 }
 input[type="button"] {
   display: inline-block;
@@ -19,6 +19,9 @@ input[type="button"] {
   color: white;
   cursor: pointer;
   border: none;
+}
+.buttons :first-child {
+  margin-right: 1rem;
 }
 .buttons :last-child [type="button"]:active {
   background-color: #287fb8;
