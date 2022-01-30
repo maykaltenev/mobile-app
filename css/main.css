@@ -46,11 +46,14 @@ input[type="button"] {
   /* margin: 25px 0; */
   padding: 1.5rem 1.5rem;
   border-radius: 5%;
-  background-color: rgba(16, 148, 236, 0.849);
+  background-color: #3498db;
   font-weight: 900;
   font-size: 1rem;
   color: white;
   cursor: pointer;
+}
+.buttons :first-child input[type="button"] {
+  background-color: #29be56;
 }
 
 /* input[type="button"]:nth-of-type(2) {
