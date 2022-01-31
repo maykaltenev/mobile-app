@@ -23,12 +23,20 @@ input[type="button"] {
 .buttons :first-child {
   margin-right: 1rem;
 }
-.buttons :last-child [type="button"]:active {
+
+.buttons :last-child [type="button"]:hover {
   background-color: #287fb8;
+}
+.buttons :last-child [type="button"]:active {
+  background-color: #44adf4;
 }
 .buttons :first-child input[type="button"] {
   background-color: #29be56;
 }
-.buttons :first-child [type="button"]:active {
+
+.buttons :first-child [type="button"]:hover {
   background-color: #25ac4e;
+}
+.buttons :first-child [type="button"]:active {
+  background-color: #3aeb6c;
 }
