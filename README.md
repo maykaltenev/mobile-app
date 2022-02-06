@@ -1,4 +1,4 @@
-## Mobile Application
+## Mobile Application Webpage
 
 [Test this app yourself](https://maykaltenev.github.io/mobile-app/)
 
