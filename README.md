@@ -19,7 +19,7 @@ The website is meant to practice on the CSS Flexbox declarations, such as:
 - align-items;
 - flex-grow;
 - align-self;
-- flex-wrap;
+- flex-wrap; </br>
   The website is as well made with the position CSS property.
 
 ##### Developed With
